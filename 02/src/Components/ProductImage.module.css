@@ -1,0 +1,22 @@
+.ProductImage{
+  position: relative;
+}
+.close{
+  position: absolute;
+  width: 30px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.img{
+  width: 120%;
+}
+
+@media (max-width: 720px) {
+  .close{
+    right: 10%;
+  }
+  .img{
+    width: 102%;
+  }
+}

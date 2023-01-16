@@ -1,0 +1,27 @@
+.ProductCard{
+  background-color: var(--color-light);
+  height: 100vh;
+  max-height: 500px;
+  width: 100vw;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 44% 50%;
+  gap: 6%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+@media (max-width: 720px) {
+  .ProductCard{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    max-height:none;
+    align-items: center;
+    justify-content: center;
+  }
+}

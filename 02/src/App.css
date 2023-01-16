@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  --color-light: #D9CDF7;
+  --color-dark: #271A45;
+  --color-white: #FFF;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-dark);
+}
+
+img{
+  width: 100%;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.anima{
+  animation: anima 2s ease initial;
+}
+@keyframes anima{
+  from {opacity: 1;}
+  to {opacity: 1;}
+}
