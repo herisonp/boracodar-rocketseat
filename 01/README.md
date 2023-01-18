@@ -1,9 +1,11 @@
-Este é um Projeto Novo com React usando Vite.
+## #boraCodar | 01
 
-### `npm install`
+Este é um desafio #boraCodar da Rocketseat. Utilizei HTML, CSS e muito JavaScript no React.
+
+`npm install`
 
 Para instalar as dependências
 
-### `npm run dev`
+`npm run dev`
 
 Para iniciar o server de live preview
