@@ -1,0 +1,15 @@
+.title{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.title h2{
+  font-size: 1.5rem;
+}
+
+.title p{
+  font-weight: normal;
+  font-size: 1.2rem;
+  opacity: .7;
+}

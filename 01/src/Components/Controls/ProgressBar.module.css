@@ -1,0 +1,28 @@
+.ProgressBar{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.progress{
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(217, 217, 217, .3);
+  height: 6px;
+}
+
+.bar{
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(217, 217, 217, .8);
+}
+
+.time{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: .9rem;
+  opacity: .7;
+}

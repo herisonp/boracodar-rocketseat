@@ -1,0 +1,10 @@
+.displayPlayer2{
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.displayPlayer2:first-child img{
+  width: 85px;
+  height: 85px;
+}

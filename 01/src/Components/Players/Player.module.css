@@ -1,0 +1,30 @@
+.Player{
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  padding: 2.5rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.8rem;
+}
+
+.player-1{
+  min-width: 280px;
+  grid-area: A;
+}
+
+.player-2{
+  grid-area: B;
+}
+
+.player-3{
+  grid-area: C;
+}
+
+.player-2,
+.player-3{
+  min-width: 380px;
+  height: fit-content;
+}
