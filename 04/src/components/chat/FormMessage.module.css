@@ -1,0 +1,32 @@
+.FormMessage{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #282843;
+  border-radius: 100px;
+  overflow: hidden;
+  padding: .5rem 1rem;
+}
+
+.FormMessage button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.FormMessage input{
+  background: transparent;
+  font-family: sans-serif;
+  padding: 0.5rem;
+  color: #E1E1E6;
+  border: none;
+  width: 100%;
+  resize: none;
+}
+.FormMessage input::placeholder{
+  color: #9393b7;
+}
+.FormMessage input:focus{
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,68 @@
+.HeaderChat{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ContactInfos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Avatar{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.ContactDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.ContactDetails h4{
+  font-size: 1rem;
+  line-height: 1;
+}
+.ContactDetails .Status{
+  line-height: 1;
+  font-size: .8rem;
+  display: flex;
+  gap: .2rem;
+  align-items: center;
+}
+
+.ContactDetails .Status::before{
+  content: '';
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1;
+  background: currentColor;
+  width: 6px;
+  height: 6px;
+  border-radius: 100px;
+}
+
+.ContactDetails .Status.online{
+  color: #00B37E;
+}
+
+.ContactDetails .Status.offline{
+  color: #B30020;
+}
+
+.ButtonClose{
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+.ButtonClose img{
+  width: .8rem;
+}

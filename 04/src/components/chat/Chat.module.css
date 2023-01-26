@@ -1,0 +1,15 @@
+.Chat{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: 2rem;
+}
+
+@media (max-width: 40rem) {
+.Chat{
+  padding-block: 1.5rem;
+}
+}

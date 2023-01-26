@@ -1,0 +1,59 @@
+.MessagesChat{
+  height: 75vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+}
+
+.messagesDay{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 1.8rem;
+  width: 100%;
+}
+
+.date{
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  font-size: .8rem;
+}
+
+.message{
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.message > p{
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.message.right {
+  align-self: flex-end;
+  text-align: end;
+}
+
+.message.right > p{
+  background: #07847E;
+  border-bottom-right-radius: 0px;
+  text-align: start;
+}
+
+.message.left{
+  align-self: flex-start;
+  text-align: start;
+}
+.message.left > p{
+  background: #633BBC;
+  border-top-left-radius: 0px;
+}
+
+.messageDetails{
+  font-size: .8rem;
+}
