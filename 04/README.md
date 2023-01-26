@@ -2,7 +2,7 @@
 
 Este é um desafio #boraCodar da Rocketseat. Utilizei HTML, CSS e muito JavaScript no React.
 
--> View Live http://boracodar04.herisonpereira.com.br/
+-> View Live https://boracodar04.herisonpereira.com.br/
 
 `npm install`
 
