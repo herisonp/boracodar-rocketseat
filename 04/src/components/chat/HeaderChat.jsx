@@ -4,7 +4,12 @@ import close from '../../assets/close.svg';
 
 import styles from './HeaderChat.module.css';
 
-const HeaderChat = () => {
+const HeaderChat = ({ setNewsMessages }) => {
+  function clearMessages() {
+    window.localStorage.clear('messages');
+    setNewsMessages(null);
+  }
+
   return (
     <header className={styles.HeaderChat}>
       <div className={styles.ContactInfos}>
@@ -15,7 +20,7 @@ const HeaderChat = () => {
         </div>
       </div>
 
-      <button className={styles.ButtonClose}>
+      <button onClick={clearMessages} className={styles.ButtonClose}>
         <img src={close} alt="fechar conversa" />
       </button>
     </header>

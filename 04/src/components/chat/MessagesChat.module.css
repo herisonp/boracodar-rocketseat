@@ -1,10 +1,12 @@
 .MessagesChat{
-  height: 75vh;
+  height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: start;
   width: 100%;
+  padding-inline: 1rem;
 }
 
 .messagesDay{
@@ -32,7 +34,19 @@
 .message > p{
   border-radius: 8px;
   padding: 1rem;
+  font-size: .8rem;
+  transition: 0.3s;
+  opacity: 0;
+  animation: slide .3s forwards;
 }
+
+@keyframes slide {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
 
 .message.right {
   align-self: flex-end;
@@ -43,6 +57,7 @@
   background: #07847E;
   border-bottom-right-radius: 0px;
   text-align: start;
+  transform: translateX(100%);
 }
 
 .message.left{
@@ -52,7 +67,10 @@
 .message.left > p{
   background: #633BBC;
   border-top-left-radius: 0px;
+  transform: translateX(-100%);
 }
+
+
 
 .messageDetails{
   font-size: .8rem;
