@@ -1,0 +1,77 @@
+.calc{
+  background-color: #2D2A37;
+  border-radius: 48px;
+  padding: 2rem;
+  max-width: 380px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04), 0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26), 0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1), inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+}
+
+.display{
+  width: 100%;
+  height: 90px;
+  margin-bottom: 1.7rem;
+  margin-top: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding-inline: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.display .sums{
+  text-align: right;
+  word-wrap: break-word;
+}
+.display .sums,
+.display .result .equal{
+  color: #6B6B6B;
+  font-size: 1rem;
+}
+
+.display .result{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  word-wrap: break-word;
+}
+
+.display .result .number{
+word-wrap: break-word;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.buttons button{
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2D2A37;
+  border: none;
+  border-radius: 100px;
+  color: currentColor;
+  box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+}
+
+.buttons button:first-child{
+  color: #975DFA;
+}
+
+.buttons button:hover{
+  background: linear-gradient(180deg, rgba(55, 55, 55, 0.37) 0%, rgba(255, 255, 255, 0.18) 100%), #2D2A37;
+}
+
+.buttons .operator{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;
+}
+
+.buttons .operator:hover{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+}

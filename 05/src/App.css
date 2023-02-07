@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  font-family: 'Rubik', sans-serif;
+  background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+  color: #EBEBEB;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App{
+  width: fit-content;
+  height: fit-content;
+}
