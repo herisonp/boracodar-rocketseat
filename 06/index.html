@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>#boraCodar | 06</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <h2>Cartão de embarque</h2>
+
+    <div id="ticket">
+      <div id="header" class="padding ">
+        <div id="date-infos" class="space-between">
+          <div class="info">
+            <span>Voo</span>
+            <strong>RS995</strong>
+          </div>
+
+          <div id="date" class="info">
+            <span>Data</span>
+            <strong>23/05/2023</strong>
+          </div>
+        </div>
+
+        <div id="from-destiny" class="space-between">
+          <div id="from" class="info">
+            <span>São Paulo, Brasil</span>
+            <strong>GRU</strong>
+            <p>17:00</p>
+          </div>
+
+          <img src="./assets/airplane.svg" alt="">
+
+          <div id="destiny" class="info">
+            <span>São Francisco, EUA</span>
+            <strong>SFO</strong>
+            <p>04:48<span>+1</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="passenger-info" class="padding space-between">
+        <div id="passenger" class="info">
+          <span>Passageiro</span>
+          <strong>Rodrigo Terron</strong>
+        </div>
+
+        <div id="seat" class="info">
+          <span>Assento</span>
+          <strong>28A</strong>
+        </div>
+      </div>
+
+      <div id="boarding-info" class="padding">
+        <div id="boarding" class="space-between">
+          <div id="details">
+            <div class="info">
+              <span>Embarque</span>
+              <strong class="hour">16:15</strong>
+            </div>
+
+            <div class="info">
+              <span>Terminal</span>
+              <strong>2</strong>
+            </div>
+
+            <div class="info">
+              <span>Portão</span>
+              <strong>15</strong>
+            </div>
+          </div>
+          <div id="qr-code">
+            <img src="./assets/qrcode.svg" alt="">
+            <p>Grupo de embarque 3</p>
+          </div>
+        </div>
+
+        <div id="attention">
+          <p><strong>Atenção:</strong> o portão fecha 16:45</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>Qualquer problema procure o balcão de atendimento da sua companhia aérea</footer>
+  </div>
+
+</body>
+
+</html>

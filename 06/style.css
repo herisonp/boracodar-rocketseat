@@ -1,0 +1,171 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  font-smooth: always; 
+}
+
+body{
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
+  color: #FFF;
+  display: flex;
+}
+
+body *{
+  font-family: 'Rubik', sans-serif;
+}
+
+h2{
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+h2, strong{
+  font-weight: 500;
+}
+
+footer{
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  opacity: 0.64;
+  text-align: center;
+}
+
+#app{
+  width: 327px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#header,
+#passenger-info,
+#boarding-info{
+  background-color: #FFF;
+}
+
+#ticket{
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.30);
+  color:#000000E0;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.padding{
+  padding: 24px 32px;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.info span{
+  font-size: 14px;
+  color: #000000A3;
+}
+
+.info strong{
+  font-size: 16px;
+}
+
+#header{
+  -webkit-mask: radial-gradient(12px at 0 100%,#0000 98%,#000) 0/51% 100% no-repeat,
+  radial-gradient(12px at 100% 100%,#0000 98%,#000) 100%/51% 100% no-repeat;
+}
+
+#date-infos #date{
+  text-align: right;
+}
+
+#from-destiny{
+  position: relative;
+  margin-top: 24px;
+}
+
+#from-destiny > img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-25%) translateY(-25%);
+}
+
+#from-destiny #destiny{
+  text-align: right;
+}
+#from-destiny .info strong{
+  font-size: 40px;
+}
+
+#from-destiny #destiny > p{
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+
+#from-destiny #destiny > p span{
+  font-size: 10px;
+  color: currentColor;
+}
+
+#passenger-info{
+  padding-block: 24px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.32);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+  -webkit-mask: radial-gradient(12px at 40px 40px,#0000 98%,#000) -40px -40px;
+          mask: radial-gradient(12px at 40px 40px,#0000 98%,#000) -40px -40px;
+}
+
+#passenger-info #seat{
+  text-align: right;
+}
+
+#boarding-info{
+  -webkit-mask: radial-gradient(12px at 0 0,#0000 98%,#000) 0/51% 100% no-repeat,
+  radial-gradient(12px at 100% 0,#0000 98%,#000) 100%/51% 100% no-repeat;
+}
+
+#boarding.space-between{
+  align-items: center;
+}
+
+#boarding #details{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#boarding #details .info .hour{
+  background-color: #8257E5;
+  width: fit-content;
+  color: #FFF;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+#qr-code p{
+  color: #000000A3;
+  font-size: 14px;
+  text-align: center;
+}
+
+#attention{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 24px;
+  color: #000000CC;
+}
