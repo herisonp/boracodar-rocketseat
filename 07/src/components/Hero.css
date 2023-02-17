@@ -1,0 +1,38 @@
+#hero{
+  background-color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 53.2rem;
+  padding-block: 10rem;
+  padding-inline: 2rem;
+  background-image: url("../assets/ilustra-01.svg"), url("../assets/ilustra-02.svg");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+
+@media (max-width: 50rem){
+  #hero{
+    background-size: 70%;
+  }
+}
+
+#hero h1{
+  color: var(--color-black);
+  text-align: center;
+  max-width: 647px;
+  font-size: 4.8rem;
+}
+#hero h1 span{
+  color: var(--color-primary);
+}
+
+#hero h5 {
+  color: var(--color-secundary);
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.8rem;
+}

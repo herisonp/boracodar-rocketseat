@@ -1,0 +1,30 @@
+.bloco{
+  position: relative;
+  border: 1px solid #EAEAEA;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.image{
+  width: 100%;
+}
+
+.details{
+  padding: 1.6rem;
+  display: grid;
+  gap: 1.6rem;
+}
+.details h3{
+  font-size: 2rem;
+}
+
+.description{
+  color: #000000BF;
+  font-size: 1.6rem;
+}
+.local{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  color: #000000BF;
+  font-size: 1.6rem;
+}

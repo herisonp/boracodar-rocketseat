@@ -1,0 +1,49 @@
+.blocoContainer{
+  display: grid;
+  gap: 4rem;
+}
+.blocos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 80rem) {
+  .blocos{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 70rem) {
+  .blocos{
+    grid-template-columns: 1fr;
+  }
+}
+
+.headerBlocos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxButtons{
+  border: 1px solid #EAEAEA;
+  padding: .8rem;
+  border-radius: .6rem;
+  display: flex;
+}
+.boxButtons button{
+  padding: .8rem 2.4rem;
+  border: none;
+  outline: none;
+  border-radius: .5rem;
+  background-color:var(--color-white) ;
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.boxButtons button.active{
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}

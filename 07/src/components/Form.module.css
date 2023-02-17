@@ -1,0 +1,71 @@
+.form{
+  display: block;
+  background-color: var(--color-white);
+  padding: 4rem;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+  min-width: fit-content;
+  border: 1px solid #EAEAEA;
+}
+@media (max-width: 70rem) {
+  .form{
+    padding: 2rem;
+
+  }
+}
+
+.form button{
+  padding: 1.2rem 3.2rem;
+  font-size: 1.4rem;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: .5rem;
+  color: var(--color-white);
+  text-transform: uppercase;
+  cursor: pointer;
+  width: fit-content;
+}
+.form .inputBox{
+  display: flex;
+  place-content: center;
+  gap: 1.2rem;
+  background-color: var(--color-light);
+  padding-inline: 1.4rem;
+  padding-block: 1rem;
+  border-radius: .5rem;
+  border: 1px solid transparent;
+  transition: all .2s ease;
+}
+.form .inputBox input,
+.form .inputBox select{
+  background: transparent;
+  border: none;
+  width: 25rem;
+  font-weight: 400;
+}
+.form .inputBox input::placeholder{
+  color: var(--color-gray);
+  font-weight: 400;
+}
+.form .inputBox input:focus,
+.form .inputBox select:focus {
+  border: none;
+  outline: none;
+}
+
+.form .inputBox:has(input:focus),
+.form .inputBox:has(select:focus){
+  border-color: var(--color-primary);
+}
+
+.form .inputBox select{
+  color: var(--color-gray);
+}
+.form .inputBox select option{
+  color: var(--color-black);
+}
