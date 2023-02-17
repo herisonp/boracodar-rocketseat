@@ -6,4 +6,7 @@ Desafio 03 https://boracodar-rocketseat-03.vercel.app/ <br>
 Desafio 04 https://boracodar04.herisonpereira.com.br/ <br>
 Desafio 05 https://boracodar05.herisonpereira.com.br/ <br>
 Desafio 06 https://boracodar06.herisonpereira.com.br/ <br>
+<<<<<<< HEAD
 Desafio 07 https://boracodar07.herisonpereira.com.br/ <br>
+=======
+>>>>>>> b59bd2fe8cc7a0fd81c04480dbc3f29165feb867
